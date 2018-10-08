@@ -13,7 +13,7 @@ public class signUpActvty extends AppCompatActivity
     private EditText email;
     private EditText password;
     private Button goBtn;
-    private Button signInButton;
+    private Button signUpButton;
     private int count = 5;
 
     @Override
@@ -30,8 +30,8 @@ public class signUpActvty extends AppCompatActivity
                 validate(email.getText().toString(), password.getText().toString());
             }
         });
-        signInButton = (Button) findViewById(R.id.signInButton); // go to sign in activity
-        signInButton.setOnClickListener(new View.OnClickListener()
+        signUpButton = (Button) findViewById(R.id.signInButton); // go to sign in activity
+        signUpButton.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
@@ -41,7 +41,7 @@ public class signUpActvty extends AppCompatActivity
             }
         });
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup_actvty);
+        setContentView(R.layout.activity_signIn_actvty);
     }
 
     private void validate(String email,String password)

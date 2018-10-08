@@ -3173,7 +3173,7 @@ public final class R {
     public static final int abc_tooltip=0x7f09001b;
     public static final int activity_main=0x7f09001c;
     public static final int activity_sign_in_actvty=0x7f09001d;
-    public static final int activity_signup_actvty=0x7f09001e;
+    public static final int activity_signIn_actvty =0x7f09001e;
     public static final int activity_wall_actvty=0x7f09001f;
     public static final int notification_action=0x7f090020;
     public static final int notification_action_tombstone=0x7f090021;
