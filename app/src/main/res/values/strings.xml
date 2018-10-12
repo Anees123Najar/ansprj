@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ansprj</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
 </resources>

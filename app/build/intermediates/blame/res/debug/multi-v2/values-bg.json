@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ansprj\\ansprj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
+            "outputFile": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
             "map": [
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\0faf0d560fd794438bafc69c1a92f983\\res\\values-bg\\values-bg.xml",

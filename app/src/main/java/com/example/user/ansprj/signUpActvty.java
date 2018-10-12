@@ -41,7 +41,7 @@ public class signUpActvty extends AppCompatActivity
             }
         });
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signIn_actvty);
+        setContentView(R.layout.activity_signin_actvty);
     }
 
     private void validate(String email,String password)
