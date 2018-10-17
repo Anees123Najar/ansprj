@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class signUpActvty extends AppCompatActivity
+public class signInActivity extends AppCompatActivity
 {
 
     private EditText email;
@@ -36,7 +36,7 @@ public class signUpActvty extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent intent1 = new Intent(signUpActvty.this, signInActvty.class);
+                Intent intent1 = new Intent(signInActivity.this, signUpActivity.class);
                 startActivity(intent1);
             }
         });
@@ -48,7 +48,7 @@ public class signUpActvty extends AppCompatActivity
     {
         if( (email == "admin") && (password == "3082001"))
         {
-            Intent intent2 = new Intent(signUpActvty.this, wallActvty.class);
+            Intent intent2 = new Intent(signInActivity.this, wallActvty.class);
             startActivity(intent2);
         } else {
             count--;

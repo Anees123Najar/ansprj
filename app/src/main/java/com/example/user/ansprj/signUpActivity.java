@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class signInActvty extends AppCompatActivity
+public class signUpActivity extends AppCompatActivity
 {
     private Button signInBtn;
 
@@ -17,10 +17,10 @@ public class signInActvty extends AppCompatActivity
         signInBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentwallActivity = new Intent(signInActvty.this, wallActvty.class);
+                Intent intentwallActivity = new Intent(signUpActivity.this, wallActvty.class);
             }
         });
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_in_actvty);
+        setContentView(R.layout.activity_sign_up_actvty);
     }
 }

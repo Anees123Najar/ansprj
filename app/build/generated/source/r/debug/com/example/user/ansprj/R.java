@@ -4946,7 +4946,7 @@ public final class R {
     public static final int abc_tooltip=0x7f0b001b;
     public static final int activity_list_view=0x7f0b001c;
     public static final int activity_main=0x7f0b001d;
-    public static final int activity_sign_in_actvty=0x7f0b001e;
+    public static final int activity_sign_up_actvty =0x7f0b001e;
     public static final int activity_signin_actvty=0x7f0b001f;
     public static final int activity_wall_actvty=0x7f0b0020;
     public static final int content_list_view=0x7f0b0021;
