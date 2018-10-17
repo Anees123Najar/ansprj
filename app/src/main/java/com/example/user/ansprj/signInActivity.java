@@ -7,9 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class signInActivity extends AppCompatActivity
 {
-
+    private FirebaseAuth mAuth;
     private EditText email;
     private EditText password;
     private Button goBtn;
@@ -19,6 +22,9 @@ public class signInActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_signin_actvty);
+        mAuth = FirebaseAuth.getInstance();
         email =  (EditText) findViewById(R.id.email);
         password = (EditText) findViewById(R.id.password);
         goBtn =  (Button) findViewById(R.id.goBtn);
@@ -40,10 +46,15 @@ public class signInActivity extends AppCompatActivity
                 startActivity(intent1);
             }
         });
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signin_actvty);
     }
-
+    @Override
+    public void onStart()
+    {
+        super.onStart();
+        // Check if user is signed in (non-null) and update UI accordingly.
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        // updateUI(currentUser);
+    }
     private void validate(String email,String password)
     {
         if( (email == "admin") && (password == "3082001"))
