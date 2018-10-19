@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wallbackground"
+    android:background="@drawable/wvbckgrnd1"
     tools:context=".signInActivity">
 
     <LinearLayout
@@ -38,6 +38,7 @@
                 android:layout_weight="1"
                 android:text="Email"
                 android:textSize="20dp"
+                android:textColor="#123456"
                 android:textStyle="italic" />
 
             <EditText
@@ -55,6 +56,7 @@
                 android:layout_weight="1"
                 android:text="Password"
                 android:textSize="20dp"
+                android:textColor="#123456"
                 android:textStyle="italic" />
 
             <EditText
