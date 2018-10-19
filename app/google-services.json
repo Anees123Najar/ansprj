@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "1039868146156",
+    "firebase_url": "https://testapp-33dc0.firebaseio.com",
+    "project_id": "testapp-33dc0",
+    "storage_bucket": "testapp-33dc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039868146156:android:bc9c203e086b69a9",
+        "android_client_info": {
+          "package_name": "com.example.user.ansprj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039868146156-981vlokg408184hedc9t632alj85afj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDng3LY8ZF3eIvEuDH3QV3CZUObZ58yha8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039868146156:android:eb1c79abe3801ebb",
+        "android_client_info": {
+          "package_name": "il.org.loop.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039868146156-8c75k3qee678fttnmm5pqsreedpq0kpb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "il.org.loop.testapp",
+            "certificate_hash": "410269dc206a180cd2b47fba81520fdfe68f05f1"
+          }
+        },
+        {
+          "client_id": "1039868146156-981vlokg408184hedc9t632alj85afj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDng3LY8ZF3eIvEuDH3QV3CZUObZ58yha8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039868146156-981vlokg408184hedc9t632alj85afj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
