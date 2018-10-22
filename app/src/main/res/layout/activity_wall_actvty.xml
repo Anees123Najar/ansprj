@@ -58,7 +58,7 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="192dp"
+                    android:layout_height="131dp"
                     android:src="@drawable/wllbksimg" />
 
                 <TextView
