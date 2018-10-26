@@ -9,7 +9,7 @@
     android:gravity="center"
     android:weightSum="10"
     tools:context=".wallActvty">
-    
+
     <RelativeLayout
         android:layout_weight="2"
         android:layout_width="match_parent"
@@ -26,18 +26,19 @@
     </RelativeLayout>
 
     <GridLayout
-        android:columnCount="2"
-        android:rowCount="3"
-        android:alignmentMode="alignMargins"
-        android:columnOrderPreserved="false"
-        android:layout_weight="8"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:background="#00141414"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
         android:padding="14dp"
-        android:background="#00141414">
+        android:rowCount="3">
         <!-- Row 1-->
         <!-- column 1 -->
         <android.support.v7.widget.CardView
+            android:background="#00141414"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -56,24 +57,27 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="131dp"
-                    android:src="@drawable/wllbksimg" />
+                <ImageButton
+                    android:id="@+id/bksImgBtn"
+                    android:layout_width="122dp"
+                    android:layout_height="122dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/wllbksimg"/>
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="122dp"
+                    android:layout_height="30dp"
                     android:text="books"
+                    android:textStyle="bold"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18dp" />
 
             </LinearLayout>
         </android.support.v7.widget.CardView>
-
         <!-- column 2 -->
         <android.support.v7.widget.CardView
+            android:background="#00141414"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -93,14 +97,15 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="137dp"
+                    android:layout_width="122dp"
+                    android:layout_height="122dp"
                     android:src="@drawable/wllchsimg" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="chess"
+                    android:textStyle="bold"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18dp" />
@@ -110,6 +115,7 @@
         <!-- Row 2-->
         <!-- column 3 -->
         <android.support.v7.widget.CardView
+            android:background="#00141414"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -129,13 +135,14 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="125dp"
+                    android:layout_width="110dp"
+                    android:layout_height="120dp"
                     android:src="@drawable/wllfodimg" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
                     android:text="food"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
@@ -143,6 +150,44 @@
 
             </LinearLayout>
         </android.support.v7.widget.CardView>
+        <!-- column 4 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardBackgroundColor="?android:attr/colorControlNormal"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/wllgmgimg" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:text="gaming"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <!-- row 3 -->
+
 
     </GridLayout>
 

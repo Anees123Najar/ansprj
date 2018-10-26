@@ -6,6 +6,7 @@ INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidMan
 INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-24:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\001f677f9637d664351d4cb2811cd756\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\835ed7c41f3a489b69549d7fa67b1152\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\0aab8234d2c57b3f55843745e8fe3f06\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\652e488a82227d2472b2c28575b34267\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth:11.6.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.0.aar\c76c61414c8669e216016f3040c7d696\AndroidManifest.xml:16:1-21:12
 MERGED from [com.google.firebase:firebase-core:11.6.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-core-11.6.0.aar\e251494f4a6b67d6a13200bff64945a8\AndroidManifest.xml:2:1-6:12
@@ -36,7 +37,6 @@ MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\user\.grad
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0a76a9cb06de152f961c31a9ad75a70b\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0106316a1a3696bfaebd4cc0edd5f9fc\AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\73f419e31e74981b3d497ee91e84406c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\0aab8234d2c57b3f55843745e8fe3f06\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d87598ff1143e79ee8bfad9d05fcfd83\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\d00ef4e234a835bfe6ba1e6fa0cc1968\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4d8c223b5dbd96ed39696d2a5027b8a3\AndroidManifest.xml:17:1-22:12
@@ -167,6 +167,8 @@ MERGED from [com.android.support:design:28.0.0] C:\Users\user\.gradle\caches\tra
 MERGED from [com.android.support:design:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\001f677f9637d664351d4cb2811cd756\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\835ed7c41f3a489b69549d7fa67b1152\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\835ed7c41f3a489b69549d7fa67b1152\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\0aab8234d2c57b3f55843745e8fe3f06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\0aab8234d2c57b3f55843745e8fe3f06\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\652e488a82227d2472b2c28575b34267\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\652e488a82227d2472b2c28575b34267\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-auth:11.6.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.0.aar\c76c61414c8669e216016f3040c7d696\AndroidManifest.xml:17:5-43
@@ -227,8 +229,6 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\user\.grad
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0106316a1a3696bfaebd4cc0edd5f9fc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\73f419e31e74981b3d497ee91e84406c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\73f419e31e74981b3d497ee91e84406c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\0aab8234d2c57b3f55843745e8fe3f06\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\0aab8234d2c57b3f55843745e8fe3f06\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d87598ff1143e79ee8bfad9d05fcfd83\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d87598ff1143e79ee8bfad9d05fcfd83\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\d00ef4e234a835bfe6ba1e6fa0cc1968\AndroidManifest.xml:20:5-44
