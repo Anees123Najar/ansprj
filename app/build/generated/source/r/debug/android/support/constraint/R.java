@@ -56,7 +56,7 @@ public final class R {
     public static final class id {
         public static final int all = 0x7f08001d;
         public static final int basic = 0x7f080021;
-        public static final int chains = 0x7f08002a;
+        public static final int chains = 0x7f080029;
         public static final int none = 0x7f080071;
         public static final int packed = 0x7f080077;
         public static final int parent = 0x7f080079;
