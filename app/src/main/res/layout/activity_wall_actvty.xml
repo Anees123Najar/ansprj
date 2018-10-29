@@ -14,14 +14,30 @@
         android:layout_weight="2"
         android:layout_width="match_parent"
         android:layout_height="0dp">
+
         <TextView
             android:id="@+id/wllGridTv"
-            android:text="GRID LAYOUT"
-            android:textSize="34dp"
-            android:textColor="#123456"
-            android:layout_centerInParent="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="57dp"
+            android:text="GRID LAYOUT"
+            android:textColor="#123456"
+            android:textSize="34dp" />
+
+        <Button
+            android:id="@+id/signOutBtn"
+            android:layout_width="87dp"
+            android:layout_height="77dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="22dp"
+            android:background="#00141414"
+            android:text="sign out"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
 
     </RelativeLayout>
 
