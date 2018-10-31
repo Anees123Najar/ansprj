@@ -12,13 +12,18 @@
         <activity android:name=".signInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".wallActvty" />
+        <activity android:name=".wallActvty" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".signUpActivity" />
+        <activity android:name=".CameraGalleryActivity"></activity>
     </application>
 
 </manifest>

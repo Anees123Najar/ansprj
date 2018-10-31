@@ -41,95 +41,62 @@
                 android:background="#26141414"/>
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/usrnmTv"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Username"
-            android:textColor="#123456"
-            android:textSize="25dp" />
 
-        <EditText
-            android:id="@+id/usrnmEt"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="14dp">
 
-        <TextView
-            android:id="@+id/frstnmTv"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="First Name"
-            android:textColor="#123456"
-            android:textSize="25dp" />
+            <EditText
+                android:id="@+id/frstnmEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="First Name"
+                android:inputType="textPersonName" /> //First name
 
-        <EditText
-            android:id="@+id/frstnmEt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/lstnmEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Last Name"
+                android:inputType="textPersonName" /> //Last name
 
-        <TextView
-            android:id="@+id/lstnmTv"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Last Name"
-            android:textColor="#123456"
-            android:textSize="25dp" />
+            <EditText
+                android:id="@+id/emladdrssEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Email Address"
+                android:inputType="textEmailAddress" /> //Email address
 
-        <EditText
-            android:id="@+id/lstnmEt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/passTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:text="Password"
+                android:textColor="#123456"
+                android:textSize="20dp" /> //Password Tv
 
-        <TextView
-            android:id="@+id/emladdrssTv"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Email Address"
-            android:textColor="#123456"
-            android:textSize="25dp" />
+            <EditText
+                android:id="@+id/passEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword" /> //Password input
 
-        <EditText
-            android:id="@+id/emladdrssEt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textEmailAddress" />
-
-        <TextView
-            android:id="@+id/passTv"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Password"
-            android:textColor="#123456"
-            android:textSize="25dp" />
-
-        <EditText
-            android:id="@+id/passEt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
-
-        <TextView
-            android:id="@+id/phnTv"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Phone Number"
-            android:textColor="#123456"
-            android:textSize="25dp" />
-
-        <EditText
-            android:id="@+id/phnEt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="phone" />
+            <EditText
+                android:id="@+id/phnEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:ems="10"
+                android:inputType="phone" /> //Phone number
+        </LinearLayout>
 
 
     </LinearLayout>
