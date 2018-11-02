@@ -25,6 +25,7 @@ public class wallActvty extends AppCompatActivity implements View.OnClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wall_actvty);
         signOutBtn=(Button)findViewById(R.id.signOutBtn);
+        signOutBtn.setOnClickListener(this);
     }
 
 

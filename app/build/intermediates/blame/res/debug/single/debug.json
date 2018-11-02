@@ -324,6 +324,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\001f677f9637d664351d4cb2811cd756\\res\\layout\\design_layout_snackbar.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wllfdiimg.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\src\\main\\res\\drawable\\wllfdiimg.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_light.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.6.0.aar\\eedebcc49fcdd87aa0abbc1b78e0a5a3\\res\\color\\common_google_signin_btn_text_light.xml"
     },
@@ -362,6 +366,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mybutton.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\src\\main\\res\\drawable\\mybutton.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -1962,10 +1970,6 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\835ed7c41f3a489b69549d7fa67b1152\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book.jpg.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\src\\main\\res\\drawable\\book.jpg"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
