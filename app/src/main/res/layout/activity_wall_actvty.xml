@@ -28,11 +28,11 @@
 
         <Button
             android:id="@+id/signOutBtn"
-            android:layout_width="119dp"
-            android:layout_height="61dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="22dp"
+            android:layout_marginEnd="71dp"
             android:background="@drawable/mybutton"
             android:text="sign out"
             android:textSize="20dp"

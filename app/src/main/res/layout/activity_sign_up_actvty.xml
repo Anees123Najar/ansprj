@@ -101,6 +101,7 @@
                 android:hint="Residential Address" /> //Residential address
 
             <RadioGroup
+                android:id="@+id/signUpRadGrp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -122,7 +123,7 @@
                             android:padding="5dp"
                             android:text="reading"
                             android:textColor="#123456"
-                            android:textSize="20dp" /> //reading
+                            android:textSize="20dp"/> //reading
 
                         <RadioButton
                             android:id="@+id/gamingRadBtn"

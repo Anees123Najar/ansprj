@@ -8,6 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -23,14 +25,27 @@ public class signUpActivity extends AppCompatActivity
     private Button signInBtn;
     private EditText emladdrssEt, passEt;
 
+    private  RadioGroup signUpRadGrp;
+    private  RadioButton readingRadBtn, gamingRadBtn,
+            chessRadBtn, sportsRadBtn, fodieRadBtn, musicRadBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up_actvty);
+
+        signUpRadGrp = (RadioGroup) findViewById(R.id.signUpRadGrp);
+        int selectedId = signUpRadGrp.getCheckedRadioButtonId();
+        readingRadBtn = (RadioButton) findViewById(selectedId);
+        gamingRadBtn = (RadioButton) findViewById(selectedId);
+        chessRadBtn = (RadioButton) findViewById(selectedId);
+        sportsRadBtn = (RadioButton) findViewById(selectedId);
+        fodieRadBtn = (RadioButton) findViewById(selectedId);
+        musicRadBtn = (RadioButton) findViewById(selectedId);
+
         passEt = findViewById(R.id.passEt);
         emladdrssEt = findViewById(R.id.emladdrssEt);
-
         mAuth = FirebaseAuth.getInstance();
         signInBtn = (Button) findViewById(R.id.signInBtn);
         signInBtn.setOnClickListener(new View.OnClickListener() {
@@ -48,6 +63,7 @@ public class signUpActivity extends AppCompatActivity
             }
         });
     }
+
     @Override
     public void onStart()
     {
