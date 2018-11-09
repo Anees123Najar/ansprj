@@ -34,16 +34,16 @@ public class signUpActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up_actvty);
-
         signUpRadGrp = (RadioGroup) findViewById(R.id.signUpRadGrp);
-        int selectedId = signUpRadGrp.getCheckedRadioButtonId();
-        readingRadBtn = (RadioButton) findViewById(selectedId);
-        gamingRadBtn = (RadioButton) findViewById(selectedId);
-        chessRadBtn = (RadioButton) findViewById(selectedId);
-        sportsRadBtn = (RadioButton) findViewById(selectedId);
-        fodieRadBtn = (RadioButton) findViewById(selectedId);
-        musicRadBtn = (RadioButton) findViewById(selectedId);
-
+        signUpRadGrp.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                if(checkedId == R.id.readingRadBtn) {
+                    Toast.makeText(signUpActivity.this, "choice: A",
+                            Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
         passEt = findViewById(R.id.passEt);
         emladdrssEt = findViewById(R.id.emladdrssEt);
         mAuth = FirebaseAuth.getInstance();
@@ -101,4 +101,6 @@ public class signUpActivity extends AppCompatActivity
                     }
                 });
     }
+
+
 }
