@@ -48,6 +48,10 @@
         <activity android:name="com.example.user.ansprj.signUpActivity" />
         <activity android:name="com.example.user.ansprj.FireActivity" />
         <activity
+            android:name="com.example.user.ansprj.NavigationDrawerActivity"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"
             android:exported="true"

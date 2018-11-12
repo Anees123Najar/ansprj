@@ -39,8 +39,7 @@ public class signUpActivity extends AppCompatActivity
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 if(checkedId == R.id.readingRadBtn) {
-                    Toast.makeText(signUpActivity.this, "choice: A",
-                            Toast.LENGTH_SHORT).show();
+                    Toast.makeText(signUpActivity.this, "choice: A",Toast.LENGTH_SHORT).show();
                 }
             }
         });
