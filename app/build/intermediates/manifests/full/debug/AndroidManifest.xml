@@ -37,20 +37,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.user.ansprj.wallActvty" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name="com.example.user.ansprj.wallActvty" />
         <activity android:name="com.example.user.ansprj.MainActivity" />
         <activity android:name="com.example.user.ansprj.signUpActivity" />
         <activity android:name="com.example.user.ansprj.FireActivity" />
         <activity
             android:name="com.example.user.ansprj.NavigationDrawerActivity"
             android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"
