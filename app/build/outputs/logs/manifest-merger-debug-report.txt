@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\47500743cad3fa766bd25316366af714\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\aeedfff524743db24149a8599799c6db\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\fe121d716443097e570dc2606ee93a3e\AndroidManifest.xml:17:1-22:12
@@ -57,25 +57,25 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\user\.gradle\caches
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f5e2fe3ab63829a746bed2c15d817e16\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8f8d0d7ad6c2dfda676e83b76143cbbf\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\0f34fe0344bd3b93cf2bb650e828baf8\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:5:5-28:19
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\47500743cad3fa766bd25316366af714\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\47500743cad3fa766bd25316366af714\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\2b6d657a5d541a762a6cebb68a28db00\AndroidManifest.xml:9:5-20
@@ -145,7 +145,7 @@ ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManife
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:16:27-74
 activity#com.example.user.ansprj.wallActvty
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:19:9-47
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:19:9-48
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:19:19-45
 activity#com.example.user.ansprj.MainActivity
@@ -160,10 +160,10 @@ activity#com.example.user.ansprj.FireActivity
 ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:22:9-50
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:22:19-47
-activity#com.example.user.ansprj.NavigationDrawerActivity
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:23:9-27:20
+activity#com.example.user.ansprj.NavigationdrawerActivity
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:23:9-26:68
 	android:label
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:25:13-69
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:25:13-68
 	android:theme
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:26:13-56
 	android:name

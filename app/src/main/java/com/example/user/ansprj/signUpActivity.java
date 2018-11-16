@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -26,23 +27,89 @@ public class signUpActivity extends AppCompatActivity
     private EditText emladdrssEt, passEt;
 
     private  RadioGroup signUpRadGrp;
-    private  RadioButton readingRadBtn, gamingRadBtn,
-            chessRadBtn, sportsRadBtn, fodieRadBtn, musicRadBtn;
+    private  RadioButton readingRadBtn, gamingRadBtn, chessRadBtn, sportsRadBtn, fodieRadBtn, musicRadBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up_actvty);
+
         signUpRadGrp = (RadioGroup) findViewById(R.id.signUpRadGrp);
-        signUpRadGrp.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+
+        readingRadBtn = findViewById(R.id.readingRadBtn);
+        gamingRadBtn = findViewById(R.id.gamingRadBtn);
+        chessRadBtn = findViewById(R.id.chessRadBtn);
+        sportsRadBtn = findViewById(R.id.sportsRadBtn);
+        fodieRadBtn = findViewById(R.id.fodieRadBtn);
+        musicRadBtn = findViewById(R.id.musicRadBtn);
+
+        readingRadBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(RadioGroup group, int checkedId) {
-                if(checkedId == R.id.readingRadBtn) {
-                    Toast.makeText(signUpActivity.this, "choice: A",Toast.LENGTH_SHORT).show();
-                }
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                gamingRadBtn.setChecked(false);
+                chessRadBtn.setChecked(false);
+                sportsRadBtn.setChecked(false);
+                fodieRadBtn.setChecked(false);
+                musicRadBtn.setChecked(false);
             }
         });
+
+        gamingRadBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                readingRadBtn.setChecked(false);
+                chessRadBtn.setChecked(false);
+                sportsRadBtn.setChecked(false);
+                fodieRadBtn.setChecked(false);
+                musicRadBtn.setChecked(false);
+            }
+        });
+
+        chessRadBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                readingRadBtn.setChecked(false);
+                gamingRadBtn.setChecked(false);
+                sportsRadBtn.setChecked(false);
+                fodieRadBtn.setChecked(false);
+                musicRadBtn.setChecked(false);
+            }
+        });
+
+        sportsRadBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                readingRadBtn.setChecked(false);
+                gamingRadBtn.setChecked(false);
+                chessRadBtn.setChecked(false);
+                fodieRadBtn.setChecked(false);
+                musicRadBtn.setChecked(false);
+            }
+        });
+
+        fodieRadBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                readingRadBtn.setChecked(false);
+                gamingRadBtn.setChecked(false);
+                chessRadBtn.setChecked(false);
+                sportsRadBtn.setChecked(false);
+                musicRadBtn.setChecked(false);
+            }
+        });
+
+        musicRadBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                readingRadBtn.setChecked(false);
+                gamingRadBtn.setChecked(false);
+                chessRadBtn.setChecked(false);
+                sportsRadBtn.setChecked(false);
+                fodieRadBtn.setChecked(false);
+            }
+        });
+
         passEt = findViewById(R.id.passEt);
         emladdrssEt = findViewById(R.id.emladdrssEt);
         mAuth = FirebaseAuth.getInstance();
@@ -100,6 +167,4 @@ public class signUpActivity extends AppCompatActivity
                     }
                 });
     }
-
-
 }
