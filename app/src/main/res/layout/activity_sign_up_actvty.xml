@@ -30,18 +30,21 @@
                 android:text="Sign Up"
                 android:textColor="#123456"
                 android:textSize="30dp"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/signInBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:padding="5dp"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="40dp"
                 android:text="Sign In"
-                android:textStyle="italic"
-                android:textSize="30dp"
+                android:textStyle="normal"
+                android:textSize="20dp"
                 android:textColor="#123456"
+                android:drawableRight="@drawable/ic_publish_black_24dp"
                 android:background="@drawable/mybutton"/>
         </LinearLayout>
 

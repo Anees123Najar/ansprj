@@ -1,5 +1,6 @@
 package com.example.user.ansprj;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -29,6 +31,7 @@ public class signUpActivity extends AppCompatActivity
     private  RadioGroup signUpRadGrp;
     private  RadioButton readingRadBtn, gamingRadBtn, chessRadBtn, sportsRadBtn, fodieRadBtn, musicRadBtn;
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
