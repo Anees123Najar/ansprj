@@ -23,9 +23,9 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class signUpActivity extends AppCompatActivity
 {
-    final String TAG = "firebase";
+    final String TAG = "FIREBASE";
     private FirebaseAuth mAuth;
-    private Button signInBtn;
+    private Button signUpBtn;
     private EditText emladdrssEt, passEt;
 
     private  RadioGroup signUpRadGrp;
@@ -116,8 +116,8 @@ public class signUpActivity extends AppCompatActivity
         passEt = findViewById(R.id.passEt);
         emladdrssEt = findViewById(R.id.emladdrssEt);
         mAuth = FirebaseAuth.getInstance();
-        signInBtn = (Button) findViewById(R.id.signInBtn);
-        signInBtn.setOnClickListener(new View.OnClickListener() {
+        signUpBtn = (Button) findViewById(R.id.signUpBtn);
+        signUpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
             {
@@ -139,7 +139,7 @@ public class signUpActivity extends AppCompatActivity
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
-      //  updateUI(currentUser);
+        //  updateUI(currentUser);
     }
     public void createUser(String email, String password)
     {
@@ -156,7 +156,7 @@ public class signUpActivity extends AppCompatActivity
                             FirebaseUser user = mAuth.getCurrentUser();
                             Intent i = new Intent(signUpActivity.this, wallActvty.class);
                             startActivity(i);
-                             //updateUI(user);
+                            //updateUI(user);
                         }
                         else
                         {

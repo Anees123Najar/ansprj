@@ -23,7 +23,7 @@ public class signInActivity extends AppCompatActivity
     private EditText email;
     private EditText password;
     private Button goBtn;
-    private Button signUpButton;
+    private Button submitButton;
     private int count = 5;
 
     @Override
@@ -43,8 +43,8 @@ public class signInActivity extends AppCompatActivity
                 signIn(email.getText().toString(), password.getText().toString());
             }
         });
-        signUpButton = (Button) findViewById(R.id.signInButton); // go to sign in activity
-        signUpButton.setOnClickListener(new View.OnClickListener()
+        submitButton = (Button) findViewById(R.id.submitButton); // go to sign in activity
+        submitButton.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
