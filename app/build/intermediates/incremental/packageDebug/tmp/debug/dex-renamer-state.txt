@@ -1,4 +1,13 @@
-#Fri Nov 23 10:41:13 IST 2018
-base.0=C\:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
+#Mon Nov 26 13:42:03 IST 2018
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
 path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.3=C\:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+base.2=C\:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+base.1=C\:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+base.0=C\:\\Users\\user\\AndroidStudioProjects\\ansprj\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
