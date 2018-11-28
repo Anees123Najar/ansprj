@@ -72,7 +72,7 @@ public class NavigationdrawerActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         switch (item.getItemId()) {
 
-           // case R.id.nav_camera:
+           case R.id.nav_camera:
           //      getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
             //            new )commit();
           //      break;
