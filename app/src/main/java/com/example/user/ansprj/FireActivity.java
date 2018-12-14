@@ -7,11 +7,6 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
@@ -26,16 +21,16 @@ public class FireActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fire);
-
+/*
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
-        final DatabaseReference reference = database.getReference("Users");
+        final DatabaseReference reference = database.getReference("Users");*/
 
         lvUsers = (ListView)findViewById(R.id.lvUsers);
         users = new ArrayList<>();
         adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, users);
 
         lvUsers.setAdapter(adapter);
-        reference.addChildEventListener(new ChildEventListener() {
+       /* reference.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                 String name = dataSnapshot.getValue(String.class);
@@ -62,6 +57,6 @@ public class FireActivity extends AppCompatActivity
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
-        });
+        });*/
     }
 }
