@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.user.ansprj">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -23,11 +22,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".signUpActivity" />
         <activity android:name=".FireActivity" />
-        <activity
-            android:name=".NavigationdrawerActivity"
-            android:label="@string/title_activity_navigationdrawer"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SharedActivity"></activity>
+        <activity android:name=".SharedActivity" />
+        <activity android:name=".ReadingActivity"></activity>
     </application>
 
 </manifest>
