@@ -30,6 +30,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.user.ansprj.Wall2Actvty" >
             <intent-filter>
@@ -44,6 +45,14 @@
         <activity android:name="com.example.user.ansprj.FireActivity" />
         <activity android:name="com.example.user.ansprj.SharedActivity" />
         <activity android:name="com.example.user.ansprj.ReadingActivity" />
+        <activity
+            android:name="com.example.user.ansprj.ChessActivity"
+            android:label="@string/title_activity_chess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.user.ansprj.SportsActivity" />
+        <activity android:name="com.example.user.ansprj.GamingActivity" />
+        <activity android:name="com.example.user.ansprj.FoodieActivity" />
+        <activity android:name="com.example.user.ansprj.MusicActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

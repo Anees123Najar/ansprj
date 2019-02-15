@@ -82,7 +82,7 @@
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
                     android:clickable="true"
-                    app:srcCompat="@drawable/wllbksimg" />
+                    app:srcCompat="@drawable/wllbksimg"/>
 
                 <TextView
                     android:layout_width="122dp"
@@ -118,8 +118,12 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/imgBtnChs"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:clickable="true"
                     android:src="@drawable/wllchsimg" />
 
                 <TextView
@@ -156,8 +160,12 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/imgBtnSpr"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:clickable="true"
                     android:src="@drawable/wllsprinmg" />
 
                 <TextView
@@ -192,8 +200,12 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/imgBtnGmg"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:clickable="true"
                     android:src="@drawable/wllgmgimg" />
 
                 <TextView
@@ -229,9 +241,13 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/imgBtnFod"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
-                    android:src="@drawable/wllbksimg" />
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:clickable="true"
+                    android:src="@drawable/wllfodimg" />
 
                 <TextView
                     android:layout_width="110dp"
@@ -265,8 +281,12 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/imgBtnMsc"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:clickable="true"
                     android:src="@drawable/wllmscimg" />
 
                 <TextView

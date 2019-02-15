@@ -84,4 +84,5 @@
     <string name="title_activity_navigationdrawer">NavigationdrawerActivity</string>
     <string name="title_activity_edit_profile">EditProfileActivity</string>
     <string name="title_activity_shared">SharedActivity</string>
+    <string name="title_activity_chess">ChessActivity</string>
 </resources>

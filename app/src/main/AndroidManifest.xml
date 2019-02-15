@@ -23,7 +23,15 @@
         <activity android:name=".signUpActivity" />
         <activity android:name=".FireActivity" />
         <activity android:name=".SharedActivity" />
-        <activity android:name=".ReadingActivity"></activity>
+        <activity android:name=".ReadingActivity" />
+        <activity
+            android:name=".ChessActivity"
+            android:label="@string/title_activity_chess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SportsActivity" />
+        <activity android:name=".GamingActivity" />
+        <activity android:name=".FoodieActivity" />
+        <activity android:name=".MusicActivity"></activity>
     </application>
 
 </manifest>
