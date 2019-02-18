@@ -25,7 +25,7 @@ public class AlertDialogActivity extends AppCompatActivity implements DialogInte
         builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Intent i = new Intent(AlertDialogActivity.this, MainActivity.class);
+                Intent i = new Intent(AlertDialogActivity.this, Wall2Actvty.class);
                 startActivity(i);
             }
         });

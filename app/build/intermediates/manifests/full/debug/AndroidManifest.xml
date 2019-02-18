@@ -40,7 +40,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.user.ansprj.signInActivity" />
-        <activity android:name="com.example.user.ansprj.MainActivity" />
         <activity android:name="com.example.user.ansprj.signUpActivity" />
         <activity android:name="com.example.user.ansprj.FireActivity" />
         <activity android:name="com.example.user.ansprj.SharedActivity" />
@@ -53,6 +52,7 @@
         <activity android:name="com.example.user.ansprj.GamingActivity" />
         <activity android:name="com.example.user.ansprj.FoodieActivity" />
         <activity android:name="com.example.user.ansprj.MusicActivity" />
+        <activity android:name="com.example.user.ansprj.CameraGalleryActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

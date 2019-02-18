@@ -19,7 +19,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".signInActivity" />
-        <activity android:name=".MainActivity" />
         <activity android:name=".signUpActivity" />
         <activity android:name=".FireActivity" />
         <activity android:name=".SharedActivity" />
@@ -31,7 +30,8 @@
         <activity android:name=".SportsActivity" />
         <activity android:name=".GamingActivity" />
         <activity android:name=".FoodieActivity" />
-        <activity android:name=".MusicActivity"></activity>
+        <activity android:name=".MusicActivity" />
+        <activity android:name=".CameraGalleryActivity"></activity>
     </application>
 
 </manifest>

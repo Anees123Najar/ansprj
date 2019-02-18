@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -16,9 +18,6 @@ public class Wall2Actvty extends AppCompatActivity implements View.OnClickListen
     private ImageView imgBtnGmg;
     private ImageView imgBtnFod;
     private ImageView imgBtnMsc;
-
-
-
     private Button signOutBtn;
     FirebaseAuth fAuth;// = FirebaseAuth.getInstance();
     @Override
@@ -49,6 +48,20 @@ public class Wall2Actvty extends AppCompatActivity implements View.OnClickListen
         imgBtnMsc.setOnClickListener(this);
     }
 
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.optionmenu, menu);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menuItem1:
+                Intent intent2 = new Intent(getApplication(),ReadingActivity.class);
+                startActivity(intent2);
+                break;
+        }
+        return true;
+    }
 
     @Override
     public void onClick(View v) {
