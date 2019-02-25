@@ -31,7 +31,12 @@
         <activity android:name=".GamingActivity" />
         <activity android:name=".FoodieActivity" />
         <activity android:name=".MusicActivity" />
-        <activity android:name=".CameraGalleryActivity"></activity>
+        <activity android:name=".CameraGalleryActivity" />
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
