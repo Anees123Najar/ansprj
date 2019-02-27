@@ -46,6 +46,9 @@ public class Wall2Actvty extends AppCompatActivity implements View.OnClickListen
 
         imgBtnMsc = (ImageView) findViewById(R.id.imgBtnMsc);
         imgBtnMsc.setOnClickListener(this);
+
+        Intent intent =new Intent(this, MusicService.class);
+        startService(intent);
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {

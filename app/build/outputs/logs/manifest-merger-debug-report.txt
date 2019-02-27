@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\2dcae70cbbabfdf3ec2223384d9c74a0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\bf5d9fe4a71878ad60f63a74488308b8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\be40dbd33f97c579d1558224182658db\AndroidManifest.xml:17:1-22:12
@@ -48,20 +48,20 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\user\.gradle\cach
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\6162976fa942b7b79dc3a39613a16a6a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\84455e28c4c0d5c7b07ca548967410cd\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b1813f62a30d678b848a6f04c29128f0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:11-69
@@ -70,7 +70,7 @@ ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManife
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:5:22-78
 application
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:7:5-35:19
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:7:5-40:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\2dcae70cbbabfdf3ec2223384d9c74a0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\2dcae70cbbabfdf3ec2223384d9c74a0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\a08c98c06ef8a1454e82b74d310b6c09\AndroidManifest.xml:9:5-20
@@ -170,9 +170,17 @@ ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManife
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:33:19-48
 activity#com.example.user.ansprj.CameraGalleryActivity
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:34:9-68
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:34:9-59
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:34:19-56
+service#com.example.user.ansprj.MusicService
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:36:9-39:47
+	android:enabled
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:37:13-41
 uses-sdk
 INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml

@@ -15,7 +15,7 @@ public class MusicService extends Service {
     public IBinder onBind(Intent intent) { return null;}
     public void onCreate(){
         super.onCreate();
-        //mp=MediaPlayer.create(getApplicationContext(),R.raw.besound_sweet);
+        mp=MediaPlayer.create(getApplicationContext(),R.raw.energy);
     }
 
     public int onStartCommand(Intent intent,int flags,int startId) {
