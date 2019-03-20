@@ -59,7 +59,7 @@ public class Wall2Actvty extends AppCompatActivity implements View.OnClickListen
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menuItem1:
-                Intent intent2 = new Intent(getApplication(),ReadingActivity.class);
+                Intent intent2 = new Intent(getApplication(),CameraGalleryActivity.class);
                 startActivity(intent2);
                 break;
         }
