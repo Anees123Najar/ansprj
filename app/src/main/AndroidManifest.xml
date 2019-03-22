@@ -11,14 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Wall2Actvty">
+        <activity android:name=".Wall2Actvty"/>
+        <activity android:name=".signInActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".signInActivity" />
         <activity android:name=".signUpActivity" />
         <activity android:name=".FireActivity" />
         <activity android:name=".SharedActivity" />

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\2dcae70cbbabfdf3ec2223384d9c74a0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\bf5d9fe4a71878ad60f63a74488308b8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\be40dbd33f97c579d1558224182658db\AndroidManifest.xml:17:1-22:12
@@ -48,20 +48,20 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\user\.gradle\cach
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\6162976fa942b7b79dc3a39613a16a6a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\84455e28c4c0d5c7b07ca548967410cd\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b1813f62a30d678b848a6f04c29128f0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:2:11-69
@@ -70,7 +70,7 @@ ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManife
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:5:22-78
 application
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:7:5-40:19
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:7:5-39:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\2dcae70cbbabfdf3ec2223384d9c74a0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\2dcae70cbbabfdf3ec2223384d9c74a0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\a08c98c06ef8a1454e82b74d310b6c09\AndroidManifest.xml:9:5-20
@@ -112,75 +112,75 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\user\.grad
 	android:theme
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.example.user.ansprj.Wall2Actvty
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:14:9-48
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:14:19-46
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:15:13-19:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:16:17-69
+activity#com.example.user.ansprj.signInActivity
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:15:9-20:20
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:15:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:16:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
 ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:18:27-74
-activity#com.example.user.ansprj.signInActivity
+activity#com.example.user.ansprj.signUpActivity
 ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:21:9-52
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:21:19-49
-activity#com.example.user.ansprj.signUpActivity
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:22:9-52
-	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:22:19-49
 activity#com.example.user.ansprj.FireActivity
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:23:9-50
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:22:9-50
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:23:19-47
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:22:19-47
 activity#com.example.user.ansprj.SharedActivity
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:24:9-52
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:23:9-52
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:24:19-49
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:23:19-49
 activity#com.example.user.ansprj.ReadingActivity
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:25:9-53
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:24:9-53
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:25:19-50
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:24:19-50
 activity#com.example.user.ansprj.ChessActivity
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:26:9-29:59
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:25:9-28:59
 	android:label
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:28:13-57
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:27:13-57
 	android:theme
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:29:13-56
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:27:13-42
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:26:13-42
 activity#com.example.user.ansprj.SportsActivity
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:29:9-52
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:29:19-49
+activity#com.example.user.ansprj.GamingActivity
 ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:30:9-52
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:30:19-49
-activity#com.example.user.ansprj.GamingActivity
+activity#com.example.user.ansprj.FoodieActivity
 ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:31:9-52
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:31:19-49
-activity#com.example.user.ansprj.FoodieActivity
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:32:9-52
-	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:32:19-49
 activity#com.example.user.ansprj.MusicActivity
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:33:9-51
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:32:9-51
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:33:19-48
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:32:19-48
 activity#com.example.user.ansprj.CameraGalleryActivity
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:34:9-59
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:33:9-59
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:34:19-56
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:33:19-56
 service#com.example.user.ansprj.MusicService
-ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:36:9-39:47
+ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:35:9-38:47
 	android:enabled
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:38:13-35
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:39:13-36
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:38:13-36
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:37:13-41
+		ADDED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml:36:13-41
 uses-sdk
 INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\user\AndroidStudioProjects\ansprj\app\src\main\AndroidManifest.xml

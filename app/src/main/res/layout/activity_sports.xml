@@ -13,20 +13,17 @@
         android:layout_height="match_parent"
         android:padding="20dp">
 
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="130dp"
                 android:layout_height="130dp"
                 android:padding="5dp"
                 app:srcCompat="@drawable/wllsprinmg"/>
 
             <TextView
-                android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sports"
@@ -34,24 +31,224 @@
                 android:padding="5dp"
                 android:textColor="#123456"
                 android:textStyle="italic" />
-        </TableRow>
+        </TableRow> //the title
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:padding="10dp">
 
-        </TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/wllsprcnimg" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp"
+                        android:text="Sports Clubs"
+                        android:textSize="25dp"
+                        android:textColor="#123456"
+                        android:textStyle="italic"/>
+                </TableRow> //Sports Clubs
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Maccabi Sports Club"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //3
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="Bikurim St 19, Haifa"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //4
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="04-838-8341"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //5
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Haifa Tennis Club"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //6
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="Tsviya Ve-Yitshak St 2"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //7
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="04-852-2721"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //8
+
+            </TableLayout>
+
+        </TableRow> //Sports Clubs
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:padding="10dp">
 
-        </TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/wllsprcnimg12" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp"
+                        android:text="Sports Centers"
+                        android:textSize="25dp"
+                        android:textColor="#123456"
+                        android:textStyle="italic"/>
+                </TableRow> //Cooking Classes
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Technion Sports Center"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //3
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="Derech Ya'akov Dori, Haifa"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //4
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="04-832-4945"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //5
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Leo Baeck Education Center"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //13
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="Tzorfat Rd 90, Haifa"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //14
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="04-830-0500"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //15
+
+            </TableLayout>
+
+        </TableRow> //Sports Centers
+
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </TableLayout>
-
-
 </LinearLayout>
