@@ -7,6 +7,14 @@
     android:orientation="vertical"
     tools:context=".CameraGalleryActivity">
 
+    <EditText
+        android:id="@+id/etImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Image Name"
+        android:inputType="textPersonName" />
+
     <Button
         android:id="@+id/btImage"
         android:layout_width="match_parent"
@@ -22,7 +30,12 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="341dp"
+        android:layout_height="100dp"
         app:srcCompat="@drawable/schimg" />
+
+    <ListView
+        android:id="@+id/imageList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>

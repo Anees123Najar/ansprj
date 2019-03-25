@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class Wall2Actvty extends AppCompatActivity implements View.OnClickListener {
     private ImageView imgBtnBks;
     private ImageView imgBtnChs;
@@ -19,7 +21,7 @@ public class Wall2Actvty extends AppCompatActivity implements View.OnClickListen
     private ImageView imgBtnFod;
     private ImageView imgBtnMsc;
     private Button signOutBtn;
-    FirebaseAuth fAuth;// = FirebaseAuth.getInstance();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -3,6 +3,9 @@ package com.example.user.ansprj;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+/**
+ *
+ */
 public class GamingActivity extends AppCompatActivity {
 
     @Override
