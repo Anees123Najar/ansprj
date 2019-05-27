@@ -13,20 +13,17 @@
         android:layout_height="match_parent"
         android:padding="20dp">
 
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="130dp"
                 android:layout_height="130dp"
                 android:padding="5dp"
                 app:srcCompat="@drawable/wllchsimg"/>
 
             <TextView
-                android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Chess"
@@ -34,19 +31,172 @@
                 android:padding="5dp"
                 android:textColor="#123456"
                 android:textStyle="italic" />
-        </TableRow>
+        </TableRow> //the title
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:padding="10dp">
 
-        </TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/library" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp"
+                        android:text="Chess Classes"
+                        android:textSize="20dp"
+                        android:textColor="#123456"
+                        android:textStyle="italic"/>
+                </TableRow> //Book Stores
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Biet-HaGefen"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //3
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="HaGefen St., Haifa"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //4
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="04-852-5252"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //5
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13dp"
+                        android:text="Chess Class Haifa and Kraiot"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //6
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="052-3701777"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //7
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="04-8324477"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //8
+
+            </TableLayout>
+
+        </TableRow> //Cooking Classes
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:padding="10dp">
 
-        </TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/qwert" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp"
+                        android:text="Chess Clubs"
+                        android:textSize="25dp"
+                        android:textColor="#123456"
+                        android:textStyle="italic"/>
+                </TableRow> //Cooking Classes
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Chess Club Haifa-Nesher"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //10
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="052-3480757"
+                        android:textColor="#123456"
+                        android:textStyle="bold"/>
+                </TableRow> //11
+
+
+
+            </TableLayout>
+
+        </TableRow> //Restaurants
 
         <TableRow
             android:layout_width="match_parent"

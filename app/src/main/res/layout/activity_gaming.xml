@@ -54,7 +54,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="1dp"
-                        android:text="entertainment"
+                        android:text="Stores"
                         android:textSize="25dp"
                         android:textColor="#123456"
                         android:textStyle="italic"/>
@@ -69,7 +69,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="15dp"
-                        android:text="Dan Gourmet"
+                        android:text="Pazland Haifa"
                         android:textColor="#123456"
                         android:textStyle="bold"/>
                 </TableRow> //3
@@ -82,7 +82,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="10dp"
-                        android:text="Yitzhak Elhanan 17, Haifa, 3445221"
+                        android:text="Derech Simha Golan 54, Haifa"
                         android:textColor="#123456"
                         android:textStyle="bold"/>
                 </TableRow> //4
@@ -95,7 +95,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="10dp"
-                        android:text="04-830-2000"
+                        android:text="04-832-0804"
                         android:textColor="#123456"
                         android:textStyle="bold"/>
                 </TableRow> //5
@@ -109,7 +109,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="15dp"
-                        android:text="Chef Vered Fern"
+                        android:text="Enjoystick"
                         android:textColor="#123456"
                         android:textStyle="bold"/>
                 </TableRow> //6
@@ -122,7 +122,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="10dp"
-                        android:text="Culinary tours, cooking workshops"
+                        android:text="Derech Simha Golan 54, Haifa"
                         android:textColor="#123456"
                         android:textStyle="bold"/>
                 </TableRow> //7
@@ -135,7 +135,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="10dp"
-                        android:text="054-4247876"
+                        android:text="04-822-4414"
                         android:textColor="#123456"
                         android:textStyle="bold"/>
                 </TableRow> //8
@@ -143,116 +143,6 @@
             </TableLayout>
 
         </TableRow> //
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="10dp">
-
-            <ImageView
-                android:id="@+id/imageViewFoodie3"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                app:srcCompat="@drawable/resimg" />
-
-            <TableLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="1dp"
-                        android:text="Restaurants"
-                        android:textSize="25dp"
-                        android:textColor="#123456"
-                        android:textStyle="italic"/>
-                </TableRow> //Cooking Classes
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="15dp"
-                        android:text="Hanamal 24"
-                        android:textColor="#123456"
-                        android:textStyle="bold"/>
-                </TableRow> //10
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="10dp"
-                        android:text="24 Ha-Namal St. Haifa, 3303124,"
-                        android:textColor="#123456"
-                        android:textStyle="bold"/>
-                </TableRow> //11
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                    <TextView
-
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="10dp"
-                        android:text="+972 53-222-3333"
-                        android:textColor="#123456"
-                        android:textStyle="bold"/>
-                </TableRow> //12
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="15dp"
-                        android:text="Libira BrewPub"
-                        android:textColor="#123456"
-                        android:textStyle="bold"/>
-                </TableRow> //13
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="10dp"
-                        android:text="26 Hamanal St., Haifa"
-                        android:textColor="#123456"
-                        android:textStyle="bold"/>
-                </TableRow> //14
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="10dp"
-                        android:text="053-9380940"
-                        android:textColor="#123456"
-                        android:textStyle="bold"/>
-                </TableRow> //15
-
-            </TableLayout>
-
-        </TableRow> //Restaurants
-
 
         <TableRow
             android:layout_width="match_parent"

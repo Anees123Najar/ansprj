@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CameraGalleryActivity">
+    tools:context=".CameraGalleryActivity"
+    android:background="@drawable/wvbckgrnd4">
 
     <EditText
         android:id="@+id/etImage"
